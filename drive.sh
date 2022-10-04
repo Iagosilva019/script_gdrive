@@ -1,16 +1,14 @@
 
 desmontar(){
-          fusermount -u  Gdrive/gdrive
+          fusermount -u  gdrive
           echo " "
           echo -e "Desmontado com sucesso"
 
-          cd Gdrive && rmdir gdrive
+          rmdir gdrive
           echo -e "pasta deletada com sucesso"
 
 }
 montar(){
-         mkdir Gdrive
-         cd Gdrive
          mkdir gdrive && google-drive-ocamlfuse gdrive
          echo " "
          echo -e "Pasta criada com sucesso"
@@ -43,7 +41,7 @@ echo -e "╭━━━╮  ╭╮
 menu(){
         echo " "
         echo -e "[1] - Adicionar repositorio"
-        echo -e "[2] - Criar pasta gdrive"
+        echo -e "[2] - Montar gdrive"
         echo -e "[3] - Desmontar gdrive"
         echo -e "[0] - Sair"
         echo  " "
