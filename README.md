@@ -15,5 +15,15 @@
  
 # Caracteristica:
 1 - Adiciona o repositorio e instala a ferramenta, acesso ao  google drive
-2 - Monta a pasta Gdrive
-3 - Desmonta a pasta gdrive
+ 
+ 2 - Montar pasta gdrive
+ 
+ 3 - Desmontar pasta gdrive
+ 
+
+ # Capturas de tela:
+  Tela principal
+ 
+ ![Captura de tela de 2022-10-04 20-41-24](https://user-images.githubusercontent.com/92806149/193954226-41142e79-d0d6-4070-bd1a-e723938dbd10.png)
+
+ 
