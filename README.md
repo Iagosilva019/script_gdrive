@@ -11,7 +11,7 @@
  ```bash drive.sh```
 # Ou ,use um comando só:
 
-```git clone https://github.com/Iagosilva019/script_gdrive && cd script-gdrive && bash drive```
+```git clone https://github.com/Iagosilva019/script_gdrive && bash script-gdrive/drive.sh```
  
 # Caracteristica:
 1 - Adiciona o repositorio e instala a ferramenta, acesso ao  google drive
